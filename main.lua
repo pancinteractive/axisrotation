@@ -10,6 +10,7 @@
 		local rotG = 5.5 -- rate at which objects will rotate
 		local angleStep = 2 * math.pi / numPoints
 		local group1 = display.newGroup()
+		local group = display.newGroup()
 		local t = {}
 		
 		local circle = {}
